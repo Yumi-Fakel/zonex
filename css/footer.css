@@ -1,0 +1,131 @@
+.footer__content {
+    padding: 0 250px;
+    padding-top: 100px;
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 95px;
+}
+.footer__column:nth-child(2) {
+    margin-left: -60px;
+}
+
+.footer__title {
+    margin: 0;
+    margin-bottom: 37px;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.footer__link {
+    color: #454545;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.footer__link--row {
+    font-weight: 700;
+    color: #151515;
+}
+
+.footer__item:not(:last-child) {
+    margin-bottom: 43px;
+}
+
+.footer__list--row {
+    display: flex;
+    align-items: center;
+}
+
+.footer__list--row .footer__item {
+    margin-bottom: 0;
+}
+
+.footer__list--row .footer__item:not(:last-child) {
+    margin-right: 25px;
+}
+
+.footer__form {
+    width: 646px;
+    transform: translateY(3px);
+    margin-bottom: 25px;
+}
+
+.footer__text {
+    color: #454545;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #eee;
+    padding: 40px 0;
+}
+
+.subscribe-form {
+    position: relative;
+}
+
+.subscribe-form__btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    padding: 13px 10px;
+    font-weight: 500;
+    font-size: 13px;
+    color: #151515;
+}
+
+.subscribe-form__title {
+    color: #454545;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 38 px;
+}
+
+.subscribe-form__field {
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #151515;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+.subscribe-form__field input {
+    width: 100%;
+    border: none;
+    color: #151515;
+    font-weight: 500;
+    font-size: 13px;
+    padding-right: 80px;
+}
+
+
+.subscribe-form__field input::placeholder {
+    color: rgba(#454545, 0.5);
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.social__item + .social__item {
+    margin-left: 30px;
+}
+
+.social__link {
+    width: 16px;
+    height: 16px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

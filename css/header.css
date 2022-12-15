@@ -1,0 +1,22 @@
+.header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 36px 50px;
+ }
+
+.header__shop-nav {
+    margin-left: 250px;
+}
+
+.catalog-header {
+    padding-top: 38px;
+}

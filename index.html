@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/shop-nav.css">
+    <link rel="stylesheet" href="./css/hero.css">
+    <link rel="stylesheet" href="./css/card.css">
+    <link rel="stylesheet" href="./css/banners.css">
+    <link rel="stylesheet" href="./css/products.css">
+    <link rel="stylesheet" href="./css/product.css">
+    <link rel="stylesheet" href="./css/shop-banners.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <nav class="nav header__nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Shop</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Elements</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Page</a></li>
+                </ul>
+            </nav>
+            <a href="" class="logo header__logo"><img src="./img/1/logo-zonex.png.svg" alt="logo"></a>
+            <ul class="shop-nav header__shop-nav">
+                <li class="shop-nav__item">
+                    <form action="" class="shop-nav__search-form search-form">
+                        <button class="search-form__btn btn-reset" aria-label="find"></button>
+                    </form>
+                </li>
+                <li class="shop-nav__item">
+                    <a href="#" class="shop-nav__link shop-nav__link--user">
+                        <img src="./img/1/user.png" alt="">
+                    </a>
+                </li>
+                <li class="shop-nav__item">
+                    <a href="" class="shop-nav__link cart">
+                        <img src="./img/1/cart.png" alt="" class="cart__icon">
+                        <span class="cart__quantity quantity">3</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container hero__container">
+                <h1 class="visually-hidden">Zonex - best shop!</h1>
+                <h2 class="hero__title">Fall-Winter Clearance Sales</h2>
+                <p class="hero__descr">All Sale Items are Final Sale / Free Shipping on All Orders</p>
+            </div>
+            <div class="card">
+                <div class="card__image">
+                    <img src="./img/1/card.jpg" alt="">
+                </div>
+                <div class="card__text">
+                    <span class="card__descr">Someone purchaed a</span>
+                    <h3 class="card__title">Faux shearling double-breasted coat </h3>
+                    <span class="card__place">15 minutes ago London, Great Britain</span>
+                </div>
+                <div class="card__close"><img src="./img/1/kz-close.png" alt=""></div>
+            </div>
+        </section>
+        <section class="banners">
+            <h2 class="visually-hidden">Banners</h2>
+            <div class="container banners__container">
+                <ul class="banners__list">
+                    <li class="banners__item">
+                        <article class="banners__article banners-article banners-article--midseason">
+                            <h3 class="banners-article__title">Woman's Mid-Season</h3>
+                            <a class="banners-article__link">Shop Now</a>
+                        </article>
+                    </li>
+                    <li class="banners__item">
+                        <article class="banners__article banners-article banners-article--summer">
+                            <h3 class="banners-article__title">Summer Romance</h3>
+                            <a class="banners-article__link">Shop Now</a>
+                        </article>
+                    </li>
+                    <li class="banners__item">
+                        <article class="banners__article banners-article banners-article--all">
+                            <h3 class="banners-article__title">20% Off All Accessories</h3>
+                            <a class="banners-article__link">Shop Now</a>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="products">
+            <h2 class="visually-hidden">Products on Main Page</h2>
+            <div class="container products__container">
+                <ul class="products__nav">
+                    <li class="products__item"><a href="#" class="products__link products__link--current link-reset" data-filter="best-sellers">Best Sellers</a></li>
+                    <li class="products__item"><a href="#" class="products__link" data-filter="new-products">New Products</a></li>
+                    <li class="products__item"><a href="#" class="products__link" data-filter="sale-products">Sale Products</a></li>
+                </ul>
+                <ul class="products__list products-grid">
+                    <li class="products-grid__item">
+                        <article class="product">
+                            <div class="product__image">
+                                <img src="./img/3/Rectangle 6 copy.jpg" alt="">
+                            </div>
+                            <h3 class="product__title">
+                                <a href="#">Azure Tote</a>
+                            </h3>
+                            <span class="product__price">$290.00</span>
+                        </article>
+                    </li>
+                    <li class="products-grid__item">
+                        <article class="product">
+                            <div class="product__image">
+                                <img src="./img/3/Rectangle 6 copy-1.jpg" alt="">
+                            </div>
+                            <h3 class="product__title">
+                                <a href="#">Azure Tote</a>
+                            </h3>
+                            <span class="product__price">$290.00</span>
+                        </article>
+                    </li>
+                    <li class="products-grid__item">
+                        <article class="product">
+                            <div class="product__image">
+                                <img src="./img/3/Rectangle 6 copy-2.jpg" alt="">
+                            </div>
+                            <h3 class="product__title">
+                                <a href="#">Azure Tote</a>
+                            </h3>
+                            <span class="product__price">$290.00</span>
+                        </article>
+                    </li>
+                    <li class="products-grid__item">
+                        <article class="product">
+                            <div class="product__image">
+                                <img src="./img/3/Rectangle 6 copy-3.jpg" alt="">
+                            </div>
+                            <h3 class="product__title">
+                                <a href="#">Azure Tote</a>
+                            </h3>
+                            <span class="product__price">$290.00</span>
+                        </article>
+                    </li>
+                    <li class="products-grid__item">
+                        <article class="product">
+                            <div class="product__image">
+                                <img src="./img/3/Rectangle 6 copy-4.jpg" alt="">
+                            </div>
+                            <h3 class="product__title">
+                                <a href="#">Azure Tote</a>
+                            </h3>
+                            <span class="product__price">$290.00</span>
+                        </article>
+                    </li>
+                    <li class="products-grid__item">
+                        <article class="product">
+                            <div class="product__image">
+                                <img src="./img/3/Rectangle 6 copy-5.jpg" alt="">
+                            </div>
+                            <h3 class="product__title">
+                                <a href="#">Azure Tote</a>
+                            </h3>
+                            <span class="product__price">$290.00</span>
+                        </article>
+                    </li>
+                    <li class="products-grid__item">
+                        <article class="product">
+                            <div class="product__image">
+                                <img src="./img/3/Rectangle 6 copy-6.jpg" alt="">
+                            </div>
+                            <h3 class="product__title">
+                                <a href="#">Azure Tote</a>
+                            </h3>
+                            <span class="product__price">$290.00</span>
+                        </article>
+                    </li>
+                    <li class="products-grid__item">
+                        <article class="product">
+                            <div class="product__image">
+                                <img src="./img/3/Rectangle 6 copy-7.jpg" alt="">
+                            </div>
+                            <h3 class="product__title">
+                                <a href="#">Azure Tote</a>
+                            </h3>
+                            <span class="product__price">$290.00</span>
+                        </article>
+                    </li>
+                    <li class="products-grid__item">
+                        <article class="product">
+                            <div class="product__image">
+                                <img src="./img/3/Rectangle 6 copy-8.jpg" alt="">
+                            </div>
+                            <h3 class="product__title">
+                                <a href="#">Azure Tote</a>
+                            </h3>
+                            <span class="product__price">$290.00</span>
+                        </article>
+                    </li>
+                    <li class="products-grid__item">
+                        <article class="product">
+                            <div class="product__image">
+                                <img src="./img/3/Rectangle 6 copy-9.jpg" alt="">
+                            </div>
+                            <h3 class="product__title">
+                                <a href="#">Azure Tote</a>
+                            </h3>
+                            <span class="product__price">$290.00</span>
+                        </article>
+                    </li>
+                </ul>
+                <div class="products__btn-center">
+                    <button class="btn-reset product__load-more"><span>Load More</span><img src="./img/3/icons/down.png" alt=""></button>
+                </div>
+            </div>
+        </section>
+        <section class="shop-banners">
+            <div class="container shop-banners__container">
+                <h2 class="visually-hidden">Banners</h2>
+                <a href="#" class="shop-banners__banner shop-banner shop-banner--man">
+                    <h3 class="shop-banner__title">Men’s Sportswear</h3>
+                    <span class="shop-banner__text">Read more</span>
+                </a>
+                <a href="#" class="shop-banners__banner shop-banner shop-banner--woman">
+                    <h3 class="shop-banner__title">Find your fit</h3>
+                    <span class="shop-banner__text">Read more</span>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer__content">
+                <div class="footer__top">
+                    <div class="footer__column">
+                        <h3 class="footer__title">Customer service</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="tel:+8665972742" class="footer__link">Phone: +866.597.2742</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Live chat</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">About Us</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__column">
+                        <h3 class="footer__title">Company</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="3" class="footer__link">What We Do</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Available Services</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Latest Posts</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">FAQs</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__column">
+                        <h3 class="footer__title">Our Newsletter</h3>
+                        <form action="#" class="footer__form subscribe-form">
+                            <h4 class="subscribe-form__title">Join our list and get 15% off your first purchase!</h4>
+                            <label class="subscribe-form__field">
+                                <input type="email" required placeholder="Email Addres">
+                            </label>
+                            <button class="subscribe-form__btn btn-reset" type="submit">Subscribe</button>
+                        </form>
+                        <span>*Don't worry we don't spam</span> 
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <div class="footer__left">
+                        <ul class="footer__list footer__list--row">
+                            <li class="footer__item"><a href="#" class="footer__link footer__item--row">Returnsy Policy</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link footer__item--row">Privacy Policy</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link footer__item--row">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__right">
+                        <ul class="social">
+                            <li class="social__item"><a href="#" class="social__link"><img src="./img/social/kz-facebook.png" alt=""></a></li>
+                            <li class="social__item"><a href="#" class="social__link"><img src="./img/social/kz-instagram.png" alt=""></a></li>
+                            <li class="social__item"><a href="#" class="social__link"><img src="./img/social/kz-pinterest.png" alt=""></a></li>
+                            <li class="social__item"><a href="#" class="social__link"><img src="./img/social/kz-twitter.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

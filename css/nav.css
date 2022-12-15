@@ -1,0 +1,34 @@
+
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item + .nav__item {
+    margin-left: 20px;
+}
+
+.nav__link {
+    position: relative;
+    font-size: 15px;
+}
+
+.nav__link:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: #151515;
+    transition: all 0.25s ease-out;
+}
+
+.nav__link:hover:before {
+    width: 100%;
+}
+
+.nav__link--current::before {
+    opacity: 1;
+    transition: opacity 0.15s;
+}

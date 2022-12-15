@@ -1,0 +1,56 @@
+.banners__container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.banners__list {
+    display: flex;
+    /* justify-content: space-between; */
+}
+.banners__item {
+    flex-shrink: 0;
+    width: 33%;
+}
+.banners__item + .banners__item {
+    margin-left: 0.6%;
+}
+.banners-article {
+    padding: 54px 60px;
+    padding-right: 45%;
+    min-height: 290px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #e9e4df;
+}
+.banners-article--midseason {
+    background-image: url(../img/2/1.jpg);
+}
+.banners-article--summer {
+    background-image: url(../img/2/2.jpg);
+}
+.banners-article--all {
+    background-image: url(../img/2/3.jpg);
+}
+.banners-article__title {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+.banners-article__link {
+    position: relative;
+    font-size: 15px;
+    cursor: pointer;
+}
+.banners-article__link:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: #151515;
+    transition: all 0.25s ease-out;
+}
+.banners-article__link:hover:before {
+    width: 100%;
+}

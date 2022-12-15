@@ -1,0 +1,31 @@
+.hero {
+    height: 100vh;
+    min-height: 700px;
+    background-size: 100%;
+    background-image: url(../img/1/bg2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+} 
+
+.hero__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center; 
+    padding: 0 300px;
+    height: 100%; 
+}
+
+.hero__title {
+    margin: 0;
+    max-width: 535px;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.hero__descr {
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 18px;
+}

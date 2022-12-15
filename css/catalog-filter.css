@@ -1,0 +1,133 @@
+.catalog-filter {
+    border-top: 1px solid #eee;
+}
+
+.catalog-filter__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 34px;
+    padding-bottom: 34px;
+}
+
+.catalog-filter__caption {
+    display: flex;
+    align-items: center;
+}
+
+.catalog-filter__title {
+    margin: 0;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.catalog-filter__quentity {
+    margin-left: 5px;
+    min-width: 16px;
+    transform: translateY(-1px);
+}
+
+.catalog-filters {
+    padding-top: 27px;
+    padding-right: 62px;
+    width: 309px;
+}
+
+.catalog-filter__items {
+    columns: 2;
+}
+
+.catalog-filter__item + .catalog-filter__item {
+    margin-top: 14px;
+}
+
+.catalog-content {
+    min-height: 500px;
+}
+
+.hide-filters {
+    padding-left: 24px;
+    margin-bottom: 18px;
+    font-weight: 700;
+    font-size: 10px;
+    text-transform: uppercase;
+    background-image: url(../img/1/kz-close.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.catalog-filter__toggle {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    color: #aaa;
+}
+
+.catalog-filter--open .catalog-filter__bottom {
+    display: block;
+}
+
+.catalog-filter__toggle::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    transform: translateX(-50%);
+    background-color: rgb(201, 197, 197);
+    display: none;
+}
+
+.catalog-filter__toggle::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 2px;
+    width: 100%;
+    transform: translateY(-50%);
+    background-color: rgb(201, 197, 197);
+}
+
+.custom-checkbox {
+    display: inline-block;
+}
+
+.custom-checkbox__text {
+    position: relative;
+    padding-left: 15px;
+    color: #858585;
+    font-size: 13px;
+}
+
+.custom-checkbox__text::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 3px;
+    width: 11px;
+    height: 11px;
+    border: 2px solid #aaa;
+}
+
+.custom-checkbox__text::after {
+    content: '\2714';
+    position: absolute;
+    left: 1px;
+    top: -2px;
+}
+
+.custom-checkbox__input:checked + span {
+    color: #151515;
+}
+.custom-checkbox__input:checked + span::before {
+    border-color: #151515;
+}
+
+.catalog-filter__bottom {
+    display: none;
+    padding-bottom: 34px;
+}

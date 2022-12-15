@@ -1,0 +1,39 @@
+.catalog {
+    margin-left: 300px;
+}
+
+.breadcrums__link {
+    color: #858585;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.breadcrums__link--current {
+    color: #151515;
+}
+
+.breadcrums__list {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding-top: 36px;
+    padding-bottom: 26px;
+}
+
+.breadcrums__item + .breadcrums__item {
+    margin-left: 35px;
+}
+
+.breadcrums__item:not(:last-child) {
+    position: relative;
+}
+
+.breadcrums__item::after {
+    content: '/';
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #858585;
+    font-size: 10px;
+}
